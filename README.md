@@ -86,7 +86,9 @@ Our final solution implements a modular architecture with the following componen
    python app.py
    ```
 
-2. Use the interface:
+2. Open the provided URL in your browser (typically http://127.0.0.1:7860)
+
+3. Use the interface:
    - Upload an image of a person wearing clothes
    - Upload a reference image of a garment (e.g., a t-shirt, pants, dress)
    - Click "Process Images" to generate the targeted segmentation
@@ -102,13 +104,8 @@ Our final solution implements a modular architecture with the following componen
 ├── classification.py      # Garment classification functions
 ├── utils.py               # Utility functions
 ├── requirements.txt       # Python dependencies
-├── LICENSE                # MIT License
 └── README.md              # This file
 ```
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
